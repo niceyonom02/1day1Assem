@@ -1,4 +1,4 @@
-func Main()
+func main()
 
 CPU Disasm
 Address   Hex dump          Command                                  Comments
