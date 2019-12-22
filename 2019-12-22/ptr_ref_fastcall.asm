@@ -46,7 +46,7 @@ Address   Hex dump          Command                                  Comments
 00664960    C3              RETN
 
 
-func funcA(int* const constPtr, int toChange)
+func __fastcall funcA(int* const constPtr, int toChange)
 
 CPU Disasm
 Address   Hex dump          Command                                  Comments
@@ -80,7 +80,7 @@ Address   Hex dump          Command                                  Comments
 006643CB    C3              RETN
 
 
-func funcB(int* const constPtr, int toChange)
+func __stdcall funcB(int* const constPtr, int toChange)
 
 //where set local var?
 
